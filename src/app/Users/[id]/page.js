@@ -34,6 +34,9 @@ const UserInfoPage = () => {
   return (
     <div>
       <h1>{userInfo.firstName}</h1>
+      <h1>{userInfo.email}</h1>
+      <h1>{userInfo.age}</h1>
+      <h1>{userInfo.gender}</h1>
     </div>
   );
 };
